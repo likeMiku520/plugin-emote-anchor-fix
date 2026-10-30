@@ -1,0 +1,18 @@
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  name: plugin-emote-anchor-fix
+spec:
+  enabled: true
+  requires: ">=2.20.0"
+  author:
+    name: fufu大王
+    website: https://blog.fufu520.cn
+  homepage: https://github.com/likeMiku520/plugin-emote-anchor-fix
+  repo: https://github.com/likeMiku520/plugin-emote-anchor-fix
+  issues: https://github.com/likeMiku520/plugin-emote-anchor-fix/issues
+  displayName: "评论表情面板定位修复"
+  description: "修复评论组件 Next 在回复框、以及窄屏下的文章评论框中，表情面板定位到页面顶部而不是表情按钮上方的问题。无需修改主题或评论插件。"
+  license:
+    - name: "GPL-3.0"
+      url: "https://www.gnu.org/licenses/gpl-3.0.html"
